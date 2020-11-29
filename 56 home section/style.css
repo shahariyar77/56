@@ -1,0 +1,141 @@
+
+body.theme-2{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    background: #1e5799;
+background: -moz-linear-gradient(top,  #1e5799 0%, #8e808f 24%, #2989d8 24%, #9e947a 72%, #ac8270 100%);
+background: -webkit-linear-gradient(top,  #1e5799 0%,#8e808f 24%,#2989d8 24%,#9e947a 72%,#ac8270 100%);
+background: linear-gradient(to bottom,  #1e5799 0%,#8e808f 24%,#2989d8 24%,#9e947a 72%,#ac8270 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ac8270',GradientType=0 );
+
+}
+body.theme-1{
+	background-image: url(img/theme%20bg1.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-color: #ddd;
+}
+
+
+/*========================   Nav manu ==================*/
+
+html, .theme-1 {
+  height: 100%;
+}
+.site-warp {
+  height: 100%;
+}
+.site-wrap-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.site-warp-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  /*! padding: 15px; */
+  position: relative;
+}
+.header-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 50px 80px;
+}
+.footer-area {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid#e6dfe4;
+  padding: 15px;
+}
+h1,h2 {
+  font-weight: 400;
+  color: #fff;
+  font-family: roboto;
+  line-height: 1.5;
+}
+.h1 a {
+}
+.logo a {
+  color: #fff;
+  font-weight: 400;
+}
+.main-manu {
+  text-align: right;
+}
+ul {
+}
+.main-manu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-manu li a {
+  color: #fff;
+  font-size: 20px;
+}
+.main-manu li {
+  padding-left: 30px;
+  display: inline-block;
+}
+.hero-text {
+  width: 50%;
+  padding-left: 80px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.hero-text a {
+  color: blue;
+  font-weight: 700;
+}
+.hero-text h2 {
+  font-size: 35px;
+}
+.copyright-text {
+  font-size: 16px;
+  color: #fff;
+	padding-top: 10px;
+}
+.social-link {
+  text-align: right;
+  font-size: 20px;
+  padding-right: 80px;
+}
+.social-link i.fab {
+  color: #fff;
+ transition: .3s;
+}
+.social-link i.fab:hover{
+	color: #000;
+}
+.social-link a {
+  padding-left: 10px;
+  font-size: 30px;
+  transition: .3s;
+}
+
+
+.theme-2 .site-warp{
+	background-image: url(img/theme%20bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	margin: 5%;
+}
+
+.theme-2 .footer-area {
+  position: relative;
+  margin-top: 50px;
+}
+.theme-2 .header-area {
+  position: relative;
+}
+
+
+
